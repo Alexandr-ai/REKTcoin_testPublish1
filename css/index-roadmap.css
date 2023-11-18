@@ -1,0 +1,178 @@
+
+.road-map {
+    width: 100%;
+    max-width: 100%;
+    min-height: 600px;
+    left: 0;
+    bottom: 0;
+    background-image: url('../img/roadMap__milky-way.png'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 10;
+}
+
+.road-map_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-family: var(--font-family-Roboto);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 75px;
+    letter-spacing: -2%;
+}
+
+.road-map__content {
+
+    min-height: 58px;
+}
+
+
+.road-map__vector {
+    background-image: url('../img/roadMap_vektor-none.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+@media (min-width: 576px) {
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 850px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1150px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1350px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1650px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+.icon-hover {
+    background-image: url('../img/roadMap_vektor-first-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover2 {
+    background-image: url('../img/roadMap_vektor-second-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover3 {
+    background-image: url('../img/roadMap_vektor-third-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover4 {
+    background-image: url('../img/roadMap_vektor-forth-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover5 {
+    background-image: url('../img/roadMap_vektor-fifth-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+
+

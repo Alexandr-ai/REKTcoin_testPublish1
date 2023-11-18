@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REKT CAT</title>
+    <link rel="shortcut icon" href="img/rektCat_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo-container"> <!--монета має крутитися, JS-->
+                <img width="200" src="img/rektCat_logo.jpg" class="header__logo" alt="Logo">
+            </div>
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#about">About us</a></li>
+                <li class="header__menu-item"><a href="#learning">Learning</a></li>
+                <li class="header__menu-item"><a href="#tokenomic">RECT CAT tokenomic</a></li>
+                <!--<li class="header__menu-item"><details>
+                    <li class="header__menu-item"><a href="#tokenomic">RECT CAT tokenomic</a></li>
+                    <li class="header__menu-item"><a href="#tokenomic">Part 1</a></li>
+                    <li class="header__menu-item"><a href="#tokenomic">Part 2</a></li>
+                </details></li>-->
+                <li class="header__menu-item"><a href="#blog">Blog</a></li>
+                <li class="header__menu-item"><a href="#projects">Futere projects</a></li>
+                <li class="header__menu-item"><a href="#road-map">Road map</a></li>
+                <li class="header__menu-item"><a href="">Language</a></li>
+                <li class="header__menu-item"><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="about" class="about">
+            <aside class="about__image">
+                <img width="200" src="img/rektCat_image.jpg" alt="About us">
+            </aside>
+            <div class="about__story">
+                <h2 class="about__story-title">About us</h2>
+                <p class="about__story-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In explicabo atque amet magnam accusamus eos, ex voluptate. A asperiores accusantium quod molestias esse reiciendis praesentium, repellendus alias mollitia nemo libero?</p>
+                
+            </div>
+        </section>
+
+        <section id="learning" class="learning">
+            <h2 class="learning__title">Learning</h2>
+            <p class="learning__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit, perferendis cum maxime illo error aperiam neque animi sint quam alias, rerum voluptate? Totam delectus, quod quos odit eum minus.</p>
+            <aside class="learning__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m-t-EBGV6kE?si=wIsDdnDXFK5swwUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </aside>
+        </section>
+
+        <section id="tokenomic" class="tokenomic">
+            <article>tokenomik part 1</article>
+            <article>tokenomik part 2</article>
+            <article>tokenomik part 3</article>
+            <article>tokenomik part 4</article>
+        </section>
+
+        <section id="blog" class="blog">
+            <nav class="blog__categories"> <!--ці TABS роблю використовуючи JS переключення розділів, щоб видимий був тільки той блок на якому зараз натиснено було -->
+                <button class="blog__button-video"></button>
+                <button class="blog__button-blog"></button>
+            </nav>
+            <article class="blog__video">Video</article>
+            <article class="blog__use-blog">Blog</article>
+        </section>
+
+        <section id="projects" class="projects">
+            <article class="projects__future-1"></article>
+            <article class="projects__future-2"></article>
+            <article class="projects__future-3"></article>
+        </section>
+
+        <section id="road-map" class="road-map">
+            <article class="road-map__first-step">
+                <h2 class="road-map_first-title">First step</h2>
+                <p class="road-map_first-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos rerum laudantium iusto saepe nam eos voluptate provident sed deleniti, iste voluptatum cumque mollitia. Nemo enim impedit, architecto odit sunt temporibus.</p>
+                <img width="200" src="img/rektCat_image.jpg" alt="first_step">
+            </article>
+            <article class="road-map__second-step">
+                <h2 class="road-map__second-title">Second step</h2>
+                <p class="road-map__second-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit sequi quae quibusdam earum distinctio iusto magni eos perferendis sapiente odit, aliquam ex sit animi optio corporis, nam harum beatae.</p>
+                <img width="200" src="img/roadMap__second-step.jpg" alt="second-step">
+            </article>
+            <article class="road-map__third-step">
+                <h2 class="road-map__third-title">Third step</h2>
+                <p class="road-map__third-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, cumque. Quaerat unde, ullam accusamus pariatur, odio modi sit possimus saepe doloribus consequatur sint perspiciatis rerum? Molestias suscipit nemo dolorem esse.</p>
+                <img width="200" src="img/roadMap__third-step.jpg" alt="third-step">
+            </article>
+        </section>
+
+    </main>
+
+    <footer id="contacts" class="footer">
+        <div class="footer__social-media">
+            <a href="/" class="footer__social-media-logo"><img width="50" src="img/twitter-logo.svg.png" alt="Twitter logo"></a>
+            <p class="footer__social-media-title">Twitter</p>
+        </div>
+        <div class="footer__social-media">
+            <a href="https://t.me/tQchyLKHvs0ZGRk" class="footer__social-media-logo"><img width="50" src="img/telegram-logo.png" alt="Telegram logo"></a>
+            <p class="footer__social-media-title">Telegram</p>
+        </div>
+        <div class="footer__social-media">
+            <a href="https://www.youtube.com/@REKT.CAT.TRADER" class="footer__social-media-logo"><img width="50" src="img/youtube-logo.png" alt="Youtube logo"></a>
+            <p class="footer__social-media-title">Youtube</p>
+        </div>
+        <div class="footer__social-media">
+            <a href="/" class="footer__social-media-logo"><img width="50" src="img/instagram_logo.png" alt="Insagram logo"></a>
+            <p class="footer__social-media-title">Instagram</p>
+        </div>
+        <div class="footer__social-media">
+            <a href="" class="footer__social-media-logo"><img width="50" src="img/tiktok-logo.png" alt="TikTok"></a>
+            <p class="footer__social-media-title">TikTok</p>
+        </div>  
+    </footer>
+    
+</body>
+</html>
