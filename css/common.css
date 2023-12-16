@@ -20,9 +20,9 @@
     --bright-star-color: #FEBD2F;
     --backgraund_color_main: #000416;
     --backgraund-color_projects: #010329;
+    --road-map-text_color: #F09E3E;
     color: var(--text-main-color);
 }
-
 
 .container.custom-border {
     max-width: 1500px ;

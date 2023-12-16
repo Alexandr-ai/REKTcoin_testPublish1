@@ -9,7 +9,7 @@
         let clipPathValue, canvasWidth, canvasHeight;
 
         if (width <= 450) {
-            clipPathValue = "40px";
+            clipPathValue = "36px";
             canvasWidth = "240px";
             canvasHeight = "180px";
         } else if (width >= 450 && width <= 575) {

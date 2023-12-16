@@ -64,7 +64,7 @@
 
 
 .coin__orbit {
-    background-image: url(../img/coin__orbit-before2.png);
+    background-image: url(../img/coin__orbit-after3.png);
     background-size: contain;
     max-width: 100vh;
     min-height: 180px;
@@ -72,8 +72,15 @@
     margin-top: 2rem;
     background-repeat: no-repeat;
     background-position: center center;
-    position: relative;
+    position: relative; 
+    /*transition: background-image 0.5s ease-in-out;*/
 }
+
+.coin__orbit.active {
+    background-image: url(../img/coin__orbit-after3.png);
+}
+
+
 
 
 .coin__target-container {
@@ -93,6 +100,13 @@
 
 .coin__go {
     background-image: url(../img/coin__go.png);
+    background-size: contain;
+    width: 60px;
+    z-index: 20;
+}
+
+.coin__go-en {
+    background-image: url(../img/coin__go-en.png);
     background-size: contain;
     width: 60px;
     z-index: 20;
@@ -118,7 +132,7 @@
     background-size: contain;
     width: 30px;
     position: absolute;
-    top: 24%;
+    top: 28%;
     left: 14%;
 }
 
@@ -198,17 +212,10 @@
     background-size: contain;
     width: 37px;
     position: absolute;
-    top: 22%;
-    left: 92%;
-}
-
-.coin__mentor {
-    background-size: contain;
-    width: 40px;
-    position: absolute;
     top: 40%;
     left: 72%;
 }
+
 
 .coin__usdt {
     background-size: contain;
@@ -246,7 +253,7 @@
 
 @media (min-width: 450px) {
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: contain;
         max-width: 100vh;
         min-height: 180px;
@@ -264,6 +271,12 @@
     
     .coin__go {
         background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 60px;
+    }
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
         background-size: contain;
         width: 60px;
     }
@@ -368,17 +381,10 @@
         background-size: contain;
         width: 37px;
         position: absolute;
-        top: 22%;
-        left: 89%;
-    }
-
-    .coin__mentor {
-        background-size: contain;
-        width: 40px;
-        position: absolute;
         top: 40%;
         left: 70%;
     }
+
 
     .coin__usdt {
         background-size: contain;
@@ -477,7 +483,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 250px;
@@ -486,6 +492,7 @@
         background-repeat: no-repeat;
         position: relative;
     }
+
     
     .coin__go-container {
         position: absolute;
@@ -495,6 +502,12 @@
     
     .coin__go {
         background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 80px;
+    }
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
         background-size: contain;
         width: 80px;
     }
@@ -599,17 +612,10 @@
         background-size: contain;
         width: 37px;
         position: absolute;
-        top: 22%;
-        left: 89%;
-    }
-
-    .coin__mentor {
-        background-size: contain;
-        width: 40px;
-        position: absolute;
         top: 40%;
         left: 70%;
     }
+
 
     .coin__usdt {
         background-size: contain;
@@ -679,7 +685,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 300px;
@@ -689,9 +695,10 @@
         position: relative;
     }
 
+
     @media (min-width: 720px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 320px;
@@ -714,6 +721,12 @@
         width: 80px;
     }
 
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 80px;
+    }
+
     @media (min-width: 670px) {
         .coin__go-container {
             position: absolute;
@@ -723,6 +736,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 80px;
+        }
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 80px;
         } 
@@ -737,6 +756,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 80px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 80px;
         } 
@@ -872,17 +897,10 @@
         background-size: contain;
         width: 37px;
         position: absolute;
-        top: 22%;
-        left: 89%;
-    }
-
-    .coin__mentor {
-        background-size: contain;
-        width: 40px;
-        position: absolute;
         top: 40%;
         left: 70%;
     }
+
 
     .coin__usdt {
         background-size: contain;
@@ -983,7 +1001,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 360px;
@@ -995,7 +1013,7 @@
 
     @media (min-width: 840px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 390px;
@@ -1003,12 +1021,12 @@
             margin-top: 2rem;
             background-repeat: no-repeat;
             position: relative;
-        } 
+        }
     }
 
     @media (min-width: 900px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 400px;
@@ -1016,12 +1034,12 @@
             margin-top: 2rem;
             background-repeat: no-repeat;
             position: relative;
-        } 
+        }
     }
 
     @media (min-width: 950px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 420px;
@@ -1029,7 +1047,7 @@
             margin-top: 2rem;
             background-repeat: no-repeat;
             position: relative;
-        } 
+        }
     }
 
     
@@ -1045,6 +1063,12 @@
         width: 80px;
     } 
 
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 80px;
+    } 
+
     @media (min-width: 810px) {
         .coin__go-container {
             position: absolute;
@@ -1054,6 +1078,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 90px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 90px;
         }   
@@ -1068,6 +1098,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 100px;
+        }   
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 100px;
         }   
@@ -1224,17 +1260,10 @@
         background-size: contain;
         width: 42px;
         position: absolute;
-        top: 22%;
-        left: 85%;
-    }
-
-    .coin__mentor {
-        background-size: contain;
-        width: 45px;
-        position: absolute;
         top: 40%;
         left: 72%;
     }
+
 
     .coin__usdt {
         background-size: contain;
@@ -1366,7 +1395,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 445px;
@@ -1378,7 +1407,7 @@
 
     @media (min-width: 1050px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 470px;
@@ -1391,7 +1420,7 @@
 
     @media (min-width: 1110px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 490px;
@@ -1404,7 +1433,7 @@
 
     @media (min-width: 1150px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 500px;
@@ -1428,6 +1457,12 @@
         width: 100px;
     } 
 
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 100px;
+    } 
+
     @media (min-width: 1150px) {
         .coin__go-container {
             position: absolute;
@@ -1437,6 +1472,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 120px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 120px;
         } 
@@ -1600,31 +1641,18 @@
         left: 76%; 
     }
 
-    .coin__bloger {
-        background-size: contain;
-        width: 42px;
-        position: absolute;
-        top: 22%;
-        left: 85%;
-    }
 
     @media (min-width: 1050px) {
         .coin__bloger {
             background-size: contain;
             width: 47px;
             position: absolute;
-            top: 22%;
-            left: 85%;
+            top: 40%;
+            left: 72%;
         }
+
     }
 
-    .coin__mentor {
-        background-size: contain;
-        width: 45px;
-        position: absolute;
-        top: 40%;
-        left: 72%;
-    }
 
     .coin__usdt {
         background-size: contain;
@@ -1842,7 +1870,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-before2.png);
+        background-image: url(../img/coin__orbit-after3.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 530px;
@@ -1854,7 +1882,7 @@
 
     @media (min-width: 1260px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 560px;
@@ -1867,7 +1895,7 @@
 
     @media (min-width: 1310px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 600px;
@@ -1880,7 +1908,7 @@
 
     @media (min-width: 1400px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-before2.png);
+            background-image: url(../img/coin__orbit-after3.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 640px;
@@ -1898,8 +1926,8 @@
         left: 45%; 
     }
     
-    .coin__go {
-        background-image: url(../img/coin__go.png);
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
         background-size: contain;
         width: 120px;
     }
@@ -1913,6 +1941,12 @@
         
         .coin__go {
             background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 130px;
+        }
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
             background-size: contain;
             width: 130px;
         }
@@ -2250,18 +2284,20 @@
         background-size: contain;
         width: 55px;
         position: absolute;
-        top: 22%;
-        left: 88%;
+        top: 40%;
+        left: 72%;
     }
+
 
     @media (min-width: 1310px) {
         .coin__bloger {
             background-size: contain;
             width: 65px;
             position: absolute;
-            top: 22%;
-            left: 88%;
+            top: 40%;
+            left: 72%;
         }
+
     }
 
     @media (min-width: 1400px) {
@@ -2269,25 +2305,19 @@
             background-size: contain;
             width: 65px;
             position: absolute;
-            top: 22%;
-            left: 87%;
+            top: 40%;
+            left: 72%;
         }
+
     }
 
 
 
-    .coin__mentor {
-        background-size: contain;
-        width: 70px;
-        position: absolute;
-        top: 40%;
-        left: 72%;
-    }
 
     @media (min-width: 1260px) {
-        .coin__mentor {
+        .coin__bloger {
             background-size: contain;
-            width: 70px;
+            width: 65px;
             position: absolute;
             top: 37%;
             left: 72%;
@@ -2295,9 +2325,9 @@
     }
 
     @media (min-width: 1400px) {
-        .coin__mentor {
+        .coin__bloger {
             background-size: contain;
-            width: 80px;
+            width: 65px;
             position: absolute;
             top: 37%;
             left: 72%;

@@ -17,6 +17,10 @@
     letter-spacing: -2%;
 }
 
+h2.tokenomic__title {
+    margin-bottom: 0;
+  }
+
 .tokenomic__infographic {
     background-image: url(../img/tokenomic__background-image-new.png);
     max-width: 100%;

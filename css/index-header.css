@@ -96,7 +96,7 @@ span {
 
 .header__cometa-container {
     position: absolute;
-    margin-top: 55%;
+    margin-top: 52%;
     left: 55%;
     max-width: 100%;
     height: 180px;
@@ -165,10 +165,12 @@ span {
     }
 
     .navbar-collapse, .collapse {
-        margin-right: 35%;
-        margin-left: 35%;
-        backdrop-filter: blur(2px);
+        margin-right: 25%;
+        margin-left: 25%;
+        backdrop-filter: blur(8px);
     }
+
+    
 }
 
 @media (min-width: 576px) {
@@ -299,7 +301,7 @@ span {
         .navbar-collapse, .collapse {
             margin-right: 35%;
             margin-left: 35%;
-            backdrop-filter: blur(2px);
+            backdrop-filter: blur(8px);
         }
     }
 }
@@ -464,7 +466,7 @@ span {
         .navbar-collapse, .collapse {
             margin-right: 35%;
             margin-left: 35%;
-            backdrop-filter: blur(2px);
+            backdrop-filter: blur(8px);
         }
     }
 }
@@ -526,7 +528,7 @@ span {
         flex: 1;
         
         list-style: none;
-        z-index: 20;
+        z-index: 25;
         
         backdrop-filter: blur(0px);
         position: fixed;
@@ -540,13 +542,13 @@ span {
 
     .header__menu-li {
         margin-right: 3%;
-        z-index: 20;
+        z-index: 25;
     }
 
     @media (min-width: 1120px) {
         .header__menu-li {
             margin-right: 4%;
-            z-index: 20;
+            z-index: 25;
         }
     }
 
@@ -574,7 +576,7 @@ span {
         letter-spacing: 0em;
         text-align: left;
         padding-top: 10px;
-        z-index: 20;
+        z-index: 25;
 
         border: 2px;
     }
@@ -582,7 +584,7 @@ span {
 
     .header__menu-text-anime {
         position: relative;
-        z-index: 20;
+        z-index: 25;
         transition: 0.5s;
     }
 
@@ -613,7 +615,7 @@ span {
         letter-spacing: 0em;
         text-align: left;
         padding-top: 10px;
-        z-index: 20;
+        z-index: 25;
     }
 
     .header__cometa-container {
@@ -658,7 +660,7 @@ span {
 
     .header__baner-text {
         color: var(--text-main-color);
-        z-index: 15;
+        z-index: 25;
         padding: 10px;
         font-weight: 700;
         font-size: 16px;
@@ -726,7 +728,7 @@ span {
         justify-content: space-around;
 
         list-style: none;
-        z-index: 20;
+        z-index: 25;
 
         backdrop-filter: blur(0px);
         position: fixed;
@@ -739,13 +741,13 @@ span {
 
     .header__menu-li {
         margin-right: 1%;
-        z-index: 20;
+        z-index: 25;
     }
 
     @media (min-width: 1320px) {
         .header__menu-li {
             margin-right: 2%;
-            z-index: 20;
+            z-index: 25;
         }
     }
 
@@ -774,7 +776,7 @@ span {
         letter-spacing: 0em;
         text-align: left;
         padding-top: 10px;
-        z-index: 20;
+        z-index: 25;
 
         border: 2px;
     }
@@ -782,7 +784,7 @@ span {
 
     .header__menu-text-anime {
         position: relative;
-        z-index: 20;
+        z-index: 25;
         transition: 0.5s;
     }
 
@@ -813,7 +815,7 @@ span {
         letter-spacing: 0em;
         text-align: left;
         padding-top: 10px;
-        z-index: 20;
+        z-index: 25;
     }
 
     .header__cometa-container {
