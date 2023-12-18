@@ -64,7 +64,7 @@
 
 
 .coin__orbit {
-    background-image: url(../img/coin__orbit-after3.png);
+    background-image: url(../img/coin__orbit-before2.png);
     background-size: contain;
     max-width: 100vh;
     min-height: 180px;
@@ -253,7 +253,7 @@
 
 @media (min-width: 450px) {
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: contain;
         max-width: 100vh;
         min-height: 180px;
@@ -483,7 +483,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 250px;
@@ -685,7 +685,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 300px;
@@ -698,7 +698,7 @@
 
     @media (min-width: 720px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 320px;
@@ -1001,7 +1001,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 360px;
@@ -1013,7 +1013,7 @@
 
     @media (min-width: 840px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 390px;
@@ -1026,7 +1026,7 @@
 
     @media (min-width: 900px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 400px;
@@ -1039,7 +1039,7 @@
 
     @media (min-width: 950px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 420px;
@@ -1395,7 +1395,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 445px;
@@ -1407,7 +1407,7 @@
 
     @media (min-width: 1050px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 470px;
@@ -1420,7 +1420,7 @@
 
     @media (min-width: 1110px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 490px;
@@ -1433,7 +1433,7 @@
 
     @media (min-width: 1150px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 500px;
@@ -1870,7 +1870,7 @@
     }
 
     .coin__orbit {
-        background-image: url(../img/coin__orbit-after3.png);
+        background-image: url(../img/coin__orbit-before2.png);
         background-size: 100% auto;
         max-width: 100%;
         min-height: 530px;
@@ -1882,7 +1882,7 @@
 
     @media (min-width: 1260px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 560px;
@@ -1895,7 +1895,7 @@
 
     @media (min-width: 1310px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 600px;
@@ -1908,7 +1908,7 @@
 
     @media (min-width: 1400px) {
         .coin__orbit {
-            background-image: url(../img/coin__orbit-after3.png);
+            background-image: url(../img/coin__orbit-before2.png);
             background-size: 100% auto;
             max-width: 100%;
             min-height: 640px;

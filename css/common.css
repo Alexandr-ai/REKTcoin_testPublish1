@@ -24,10 +24,10 @@
     color: var(--text-main-color);
 }
 
-.container.custom-border {
+/*.container.custom-border {
     max-width: 1500px ;
     margin: auto;
-}
+}*/
 
 .my-custom-container {
     max-width: 575px; 
